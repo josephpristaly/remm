@@ -9,7 +9,7 @@ PKGS_LIST="${TEMP_DIR}/module-pkgs"
 if [ "${GITHUB_TOKEN:-}" ]; then GH_HEADER="Authorization: token ${GITHUB_TOKEN}"; else GH_HEADER=; fi
 GITHUB_REPOSITORY=${GITHUB_REPOSITORY:-"j-hc/revanced-magisk-module"}
 NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
-WGET_HEADER="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"
+WGET_HEADER="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0"
 DRYRUN=false
 
 SERVICE_SH=$(cat $MODULE_SCRIPTS_DIR/service.sh)
@@ -72,13 +72,13 @@ abort() { echo >&2 "ABORT: $1" && exit 1; }
 set_prebuilts() {
 	[ -d "$TEMP_DIR" ] || abort "${TEMP_DIR} directory could not be found"
 	RV_CLI_JAR=$(find "$TEMP_DIR" -maxdepth 1 -name "revanced-cli-*.jar" | tail -n1)
-	[ "$RV_CLI_JAR" ] || abort "revanced cli not found"
+	[ "$RV_CLI_JAR" ] || abort "ReVanced CLI not found"
 	log "CLI: ${RV_CLI_JAR#"$TEMP_DIR/"}"
 	RV_INTEGRATIONS_APK=$(find "$TEMP_DIR" -maxdepth 1 -name "revanced-integrations-*.apk" | tail -n1)
-	[ "$RV_INTEGRATIONS_APK" ] || abort "revanced integrations not found"
+	[ "$RV_INTEGRATIONS_APK" ] || abort "ReVanced Integrations not found"
 	log "Integrations: ${RV_INTEGRATIONS_APK#"$TEMP_DIR/"}"
 	RV_PATCHES_JAR=$(find "$TEMP_DIR" -maxdepth 1 -name "revanced-patches-*.jar" | tail -n1)
-	[ "$RV_PATCHES_JAR" ] || abort "revanced patches not found"
+	[ "$RV_PATCHES_JAR" ] || abort "ReVanced Patches not found"
 	log "Patches: ${RV_PATCHES_JAR#"$TEMP_DIR/"}"
 	RV_PATCHES_JSON=$(find "$TEMP_DIR" -maxdepth 1 -name "patches-*.json" | tail -n1)
 	[ "$RV_PATCHES_JSON" ] || abort "patches.json not found"
@@ -338,7 +338,7 @@ build_rv() {
 			"${args[module_prop_name]}" \
 			"${app_name} ${RV_BRAND}" \
 			"$version" \
-			"${app_name} ${RV_BRAND} Magisk module" \
+			"${app_name} ${RV_BRAND} Magisk Module" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/update/${upj}" \
 			"$base_template"
 
