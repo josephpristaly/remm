@@ -12,7 +12,7 @@ The [**mindetach module**](https://github.com/j-hc/mindetach-magisk) in the rele
 ## Features
  * Can build Magisk modules and non-root APKs
  * Support all present and future ReVanced Extended apps
- * Updated every hour with the latest versions of apps and patches in accordance with your configuration
+ * Updated hourly with the latest versions of apps and patches in accordance with your configuration
  * Cleans APKs from unneeded libs to make them smaller
  * Fully open-source, every binary or APK is compiled without human intervention
  * Modules
