@@ -1,6 +1,6 @@
 CLI: revanced-cli-2.21.0-all.jar  
 Integrations: revanced-integrations-0.97.6.apk  
-Patches: revanced-patches-2.162.6.jar  
+Patches: revanced-patches-2.162.7.jar  
 
 YouTube
 ==
@@ -8,7 +8,7 @@ YouTube
 - fix: `materialyou` patch is broken https://github.com/inotia00/ReVanced_Extended/issues/266
 - fix: Various settings missing from Youtube settings (YouTube bug) https://github.com/inotia00/ReVanced_Extended/issues/276
 - fix(integration): build failed in debug environment
-- remove `enable-old-layout` patch (enabled by default)
+- remove `enable-old-layout` patch (included by default)
 - refactor: ReVanced settings UI (remove `settings` label in title and remove summary) https://github.com/inotia00/ReVanced_Extended/issues/249
 - refactor(sponsorblock): better skipped time format https://github.com/inotia00/ReVanced_Extended/issues/279
 - refactor: use Activity's Context instead of ApplicationContext
