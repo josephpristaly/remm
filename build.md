@@ -31,8 +31,8 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube-stable: 18.07.35  
-YouTube-latest: 18.07.35  
+YouTube-stable: 18.08.34  
+YouTube-latest: 18.08.34  
 Music (arm64-v8a): 5.45.52  
 Music (arm-v7a): 5.45.52  
 
