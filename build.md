@@ -1,27 +1,24 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.100.2.apk  
-Patches: revanced-patches-2.166.1.jar  
+Integrations: revanced-integrations-0.100.4.apk  
+Patches: revanced-patches-2.166.4.jar  
 
 YouTube
 ==
-- add `hide-autoplay-preview` patch
-- add `Show fullscreen title` settings
-- fix(return-youtube-dislike): fix right to left text layout
-- refactor(hide-autoplay-button): no longer hide [autoplay preview](https://www.reddit.com/r/revancedextended/comments/11q8rng/any_idea_how_to_hide_this_banner_in_full_screen/)
-- refactor(protobuf-spoof): move to `Experimental Flags`
+- add `Hide emoji picker`(in comments section) https://github.com/inotia00/ReVanced_Extended/issues/502
+- fix: swipe controls doesn't work in certain situations https://github.com/inotia00/ReVanced_Extended/issues/505
+- fix(enable-timestamps-speed): bug with RTL layout https://github.com/inotia00/ReVanced_Extended/issues/506
+- refactor(double-back-to-close): use better fingerprints
+- refactor(microg-support): no longer include `protobuf-spoof` patch
+- refactor(protobuf-spoof): move to the appropriate directory
+- refactor(protobuf-spoof): remove package name check
 - crowdin translation update
-`Chinese Traditional`, `French`, `Greek`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Ukrainian`, `Vietnamese`
-
-
-YouTube Music
-==
-- crowdin translation update
-`Chinese Traditional`
+`Arabic`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 ETC
 ==
-- add suport YouTube v18.10.36
+- add suport YouTube v18.10.37
+- drop suport YouTube v18.10.36
 
 
 ※ Compatible ReVanced Manager: v0.0.57
@@ -32,8 +29,8 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube-stable: 18.10.36  
-YouTube-latest: 18.10.36  
+YouTube-stable: 18.10.37  
+YouTube-latest: 18.10.37  
 Music (arm64-v8a): 5.48.52  
 Music (arm-v7a): 5.48.52  
 
