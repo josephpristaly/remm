@@ -1,5 +1,5 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.38.apk  
+Integrations: revanced-integrations-0.102.0.apk  
 Patches: revanced-patches-2.168.38.jar  
 
 YouTube
@@ -37,7 +37,6 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube-stable: 18.14.41  
 YouTube-latest: 18.14.41  
 Music (arm64-v8a): 5.52.51  
 Music (arm-v7a): 5.52.51  
