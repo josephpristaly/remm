@@ -1,3 +1,5 @@
+YouTube: 18.30.37  
+YouTube-Latest: 18.31.36  
 Music (arm64-v8a): 6.13.52  
 Music (arm-v7a): 6.13.52  
 
