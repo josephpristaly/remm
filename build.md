@@ -1,7 +1,6 @@
-YouTube: 18.30.37  
-YouTube-Latest: 18.31.36  
-Music (arm64-v8a): 6.13.52  
-Music (arm-v7a): 6.13.52  
+YouTube-ReX: 18.30.37  
+Music (arm-v7a): 6.14.50  
+Music (arm64-v8a): 6.14.50  
 
 
 Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
@@ -10,6 +9,27 @@ Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [
 
 ---
 Changelog:  
+CLI: inotia00/revanced-cli-2.22.2-all.jar  
+Integrations: YT-Advanced/revanced-integrations-0.116.0.apk  
+Patches: YT-Advanced/revanced-patches-2.187.3.jar  
+
+### [2.187.3](https://github.com/YT-Advanced/ReX-patches/compare/v2.187.2...v2.187.3) (2023-08-11)
+
+
+### Bug Fixes
+
+* **youtube/overlay-button:** Overlay buttons are not hidden when swiping the seekbar with new thumbnail preview ([d43184c](https://github.com/YT-Advanced/ReX-patches/commit/d43184c3b488269fd706b5372076437496e31b35))
+
+
+### Features
+
+* **youtube/layout:** Hide reminder button ([356fead](https://github.com/YT-Advanced/ReX-patches/commit/356feaddba902214517696b931eae61b5d150cb4))
+* **youtube/spoof-player-parameters:** Readd short parameter ([bd7b678](https://github.com/YT-Advanced/ReX-patches/commit/bd7b6785a239f903ba5b3ae6a8d606f639767702))
+
+
+
+
+---
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
 Integrations: inotia00/revanced-integrations-0.115.1.apk  
 Patches: inotia00/revanced-patches-2.187.1.jar  
