@@ -1,6 +1,6 @@
 YouTube-ReX: 18.30.37  
-Music (arm64-v8a): 6.14.50  
 Music (arm-v7a): 6.14.50  
+Music (arm64-v8a): 6.14.50  
 
 
 Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
