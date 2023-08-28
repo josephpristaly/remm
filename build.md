@@ -9,7 +9,7 @@ Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.117.2.apk  
+Integrations: YT-Advanced/revanced-integrations-0.117.3.apk  
 Patches: YT-Advanced/revanced-patches-2.189.0.jar  
 
 #### [2.189.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.2...v2.189.0) (2023-08-25)
