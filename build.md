@@ -1,31 +1,32 @@
-YouTube: 18.33.37  
+YouTube: 18.33.40  
 Music (arm64-v8a): 6.16.52  
 Music (arm-v7a): 6.16.52  
 
 
 Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
 
-[revanced-extended-magisk-module](https://github.com/MatadorProBr/revanced-extended-magisk-module)  
+[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+
 ---
 Changelog:  
-CLI: inotia00/revanced-cli-2.22.2-all.jar  
+CLI: j-hc/revanced-cli-3.0.1-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.117.3.apk  
-Patches: YT-Advanced/revanced-patches-2.189.0.jar  
+Patches: YT-Advanced/revanced-patches-2.189.1.jar  
 
-#### [2.189.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.2...v2.189.0) (2023-08-25)
+### [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.0...v2.190.0) (2023-08-29)
 
+## Note: Use Revanced Manager for build !
 
 ### Bug Fixes
 
-* **youtube/hide-quick-action:** Not worked correctly https://github.com/YT-Advanced/YT-Advanced/issues/68
+* **youtube/hide-fullscreen-panel:** Not worked correctly
 
-* **youtube/hide-emoji-picker:** Not worked correctly
 
-* **youtube-music/hide-upgrade-button:** Not worked without Sample button
+### Features
 
-### Feature
+* Add support for `v18.33.40` ([4bdebec](https://github.com/YT-Advanced/ReX-patches/commit/4bdebecf38c4f17c8467e4adddc4c63861943e1e))
 
-* **youtube:** Added support for `v18.33.xx`
 
-* **youtube-music:** Added support for `v6.16.52`
+
+
 ---  
