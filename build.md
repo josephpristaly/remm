@@ -9,7 +9,7 @@ Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [
 
 ---
 Changelog:  
-CLI: rahulkhatri137/revanced-cli-3.1.0-dev-all.jar  
+CLI: j-hc/revanced-cli-3.1.0-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.118.0.apk  
 Patches: YT-Advanced/revanced-patches-2.190.0.jar  
 
@@ -25,7 +25,7 @@ Patches: YT-Advanced/revanced-patches-2.190.0.jar
 
 ### Features
 
-* Add support for `v18.33.40` ([4bdebec](https://github.com/YT-Advanced/ReX-patches/commit/4bdebecf38c4f17c8467e4adddc4c63861943e1e))
+* Add support for `v18.34.37`
 
 * **higher-seekbar-height:** This patch will increase the seekbar height, which is helpful for user who have a big screen ([3c9fe28](https://github.com/YT-Advanced/ReX-patches/commit/3c9fe28075eead38d65bb2bfbba5b4456d0d9c2c))
 
